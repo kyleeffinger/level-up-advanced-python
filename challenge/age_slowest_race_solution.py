@@ -6,7 +6,7 @@ import re
 import datetime
 
 def get_data():
-    with open('10k_racetimes.txt', 'rt') as file:
+    with open(challenge/10k_racetimes.txt', 'rt') as file:
         content = file.read()
     return content
 

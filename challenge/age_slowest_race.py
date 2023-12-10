@@ -3,7 +3,7 @@
 # Assume a year has 365.25 days
 
 def get_data():
-    with open('10k_racetimes.txt', 'rt') as file:
+    with open(challenge/10k_racetimes.txt', 'rt') as file:
         content = file.read()
     return content
 
